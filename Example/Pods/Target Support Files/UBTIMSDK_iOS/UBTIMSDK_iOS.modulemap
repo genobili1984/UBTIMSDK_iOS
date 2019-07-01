@@ -1,0 +1,6 @@
+framework module UBTIMSDK_iOS {
+  umbrella header "UBTIMSDK_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

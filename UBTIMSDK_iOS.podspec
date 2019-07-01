@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'UBTIMSDK_iOS'
   #version=3.0.1
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A short description of UBTIMSDK_iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,6 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'UBTIMSDK_iOS/UBTIMSDK/**/*'
-  s.vendored_frameworks = 'ImSDK.framework'
   
   # s.resource_bundles = {
   #   'UBTIMSDK_iOS' => ['UBTIMSDK_iOS/Assets/*.png']
