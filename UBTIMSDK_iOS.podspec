@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'UBTIMSDK_iOS'
   #version=3.0.1
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'A short description of UBTIMSDK_iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -50,7 +50,7 @@ TODO: Add long description of the pod here.
   s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'TXIMSDK_iOS','~>4.3.145'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/*"'}
-  #s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 x86_64' }
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7' }
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 x86_64' }
+
 
 end
