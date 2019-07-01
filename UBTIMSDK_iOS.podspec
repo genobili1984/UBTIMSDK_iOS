@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'UBTIMSDK_iOS'
   #version=3.0.1
-  s.version          = '3.0.1'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of UBTIMSDK_iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'aimin.zha' => 'aimin.zha@ubtrobot.com' }
   s.source           = { :git => 'git@github.com:genobili1984/UBTIMSDK_iOS.git', :tag => s.version.to_s }
-   s.source           = { :git => 'git@github.com:genobili1984/UBTIMSDK_iOS.git'}
+  #s.source           = { :git => 'git@github.com:genobili1984/UBTIMSDK_iOS.git'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

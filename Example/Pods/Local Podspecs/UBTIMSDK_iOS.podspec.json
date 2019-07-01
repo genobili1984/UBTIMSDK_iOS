@@ -1,0 +1,36 @@
+{
+  "name": "UBTIMSDK_iOS",
+  "version": "3.0.1",
+  "summary": "A short description of UBTIMSDK_iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "git@github.com:genobili1984/UBTIMSDK_iOS.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aimin.zha": "aimin.zha@ubtrobot.com"
+  },
+  "source": {
+    "git": "git@github.com:genobili1984/UBTIMSDK_iOS.git"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UBTIMSDK_iOS/UBTIMSDK/**/*",
+  "prefix_header_contents": "#ifdef TARGET_OS_IOS\n  #import \"UBTIMSDK.h\"\n#endif",
+  "requires_arc": true,
+  "public_header_files": "UBTIMSDK_iOS/UBTIMSDK/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "TXIMSDK_iOS": [
+      "~>4.3.145"
+    ]
+  },
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/*\""
+  }
+}
